@@ -1,0 +1,31 @@
+{
+  "name": "mfe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "koa": "^2.8.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-async-generator-functions": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.5.0",
+    "@babel/plugin-transform-modules-umd": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "eslint": "^4.19.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-onerror": "^4.1.0",
+    "koa-route": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.1",
+    "koa-xml-parser": "^0.1.0",
+    "log4js": "^5.1.0"
+  }
+}

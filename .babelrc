@@ -1,0 +1,14 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-es2015"],
+    "plugins": [
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-transform-modules-umd",
+      "@babel/plugin-transform-async-to-generator",
+      "@babel/plugin-proposal-async-generator-functions",
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      "transform-async-to-generator",
+      "transform-object-rest-spread",
+      "transform-react-jsx"
+  ]
+}
